@@ -416,3 +416,4 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/TimerTizimi.Api/appsettings.Development.json
