@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36327.8 d17.14
+VisualStudioVersion = 17.14.36327.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerTizimi.Api", "TimerTizimi.Api\TimerTizimi.Api.csproj", "{7D024162-9C1D-4AEC-A182-A67EB05DE822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerTizimi.Api.Infrastructure.Build", "TimerTizimi.Api.Infrastructure.Build\TimerTizimi.Api.Infrastructure.Build.csproj", "{F114F596-CCC0-4653-B429-67525E95ACF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerTizimi.Api.Tests.Unit", "TimerTizimi.Api.Tests.Unit\TimerTizimi.Api.Tests.Unit.csproj", "{527C27D2-9257-448A-BC3A-DA8C101CAC6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{7D024162-9C1D-4AEC-A182-A67EB05DE822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D024162-9C1D-4AEC-A182-A67EB05DE822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D024162-9C1D-4AEC-A182-A67EB05DE822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F114F596-CCC0-4653-B429-67525E95ACF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F114F596-CCC0-4653-B429-67525E95ACF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F114F596-CCC0-4653-B429-67525E95ACF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F114F596-CCC0-4653-B429-67525E95ACF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527C27D2-9257-448A-BC3A-DA8C101CAC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527C27D2-9257-448A-BC3A-DA8C101CAC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527C27D2-9257-448A-BC3A-DA8C101CAC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527C27D2-9257-448A-BC3A-DA8C101CAC6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
